@@ -1,0 +1,29 @@
+.PlacingOrderMessage {
+    position: relative;
+    margin: auto 10px;
+    bottom: 15%;
+    width: auto;
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: medium;
+    color: rgb(39, 18, 18);
+    background-color: transparent;
+    opacity: .75;
+    animation: pulse 2.5s linear infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1, 1);
+      opacity: .25;
+    }
+    50% {
+      transform: scale(1.2, 1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: .25;
+    }
+  }
+

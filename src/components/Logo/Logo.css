@@ -1,0 +1,24 @@
+.Logo {
+    /* background-color: rgba(46, 3, 3, 0.568); */
+    background: repeating-linear-gradient(
+        45deg,
+        #ebe4e0,
+        #ebe4e0 10px,
+        #f0cbc7 10px,
+        #f0cbc7 20px
+    );
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px ;
+}
+
+.Logo img {
+    height: 100%;
+}
+
+@media (min-width: 500px) {
+    .Logo img {
+        align-items: center;
+    }
+}
